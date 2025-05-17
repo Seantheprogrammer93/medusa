@@ -1,5 +1,11 @@
 # integration-tests-http
 
+## 1.0.15
+
+### Patch Changes
+
+- [#12516](https://github.com/medusajs/medusa/pull/12516) [`5cd4ff6fe75c6be4ac33820a2e22654fc2508b4e`](https://github.com/medusajs/medusa/commit/5cd4ff6fe75c6be4ac33820a2e22654fc2508b4e) Thanks [@thetutlage](https://github.com/thetutlage)! - test: remove snapshots usage
+
 ## 1.0.14
 
 ### Patch Changes
