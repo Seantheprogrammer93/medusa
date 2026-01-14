@@ -1,5 +1,17 @@
 # @medusajs/dashboard
 
+## 2.12.6
+
+### Patch Changes
+
+- [#14488](https://github.com/medusajs/medusa/pull/14488) [`19f274523cda2cf13fc9194d72b9d8a71aba264c`](https://github.com/medusajs/medusa/commit/19f274523cda2cf13fc9194d72b9d8a71aba264c) Thanks [@peterlgh7](https://github.com/peterlgh7)! - add cloud auto-login
+
+- Updated dependencies []:
+  - @medusajs/js-sdk@2.12.6
+  - @medusajs/admin-shared@2.12.6
+  - @medusajs/icons@2.12.6
+  - @medusajs/ui@4.0.34
+
 ## 2.12.5
 
 ### Patch Changes
