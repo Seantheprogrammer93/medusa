@@ -1,5 +1,17 @@
 # @medusajs/workflows-sdk
 
+## 2.12.6
+
+### Patch Changes
+
+- [#14441](https://github.com/medusajs/medusa/pull/14441) [`1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b`](https://github.com/medusajs/medusa/commit/1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b) Thanks [@shahednasser](https://github.com/shahednasser)! - feat(deps,framework): add zod as framework dependency
+
+- Updated dependencies [[`13476988763368b3b333fa5bc3f613e8eb174fdf`](https://github.com/medusajs/medusa/commit/13476988763368b3b333fa5bc3f613e8eb174fdf), [`55d2a704700433c34edd0f7f10dfd042d2f9333a`](https://github.com/medusajs/medusa/commit/55d2a704700433c34edd0f7f10dfd042d2f9333a), [`41e1d5e5066719569d4f639415d3d1fdae1ddc0b`](https://github.com/medusajs/medusa/commit/41e1d5e5066719569d4f639415d3d1fdae1ddc0b), [`cec8b8e428131d4743d6da98cd5fa0974b8ab9e1`](https://github.com/medusajs/medusa/commit/cec8b8e428131d4743d6da98cd5fa0974b8ab9e1), [`1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b`](https://github.com/medusajs/medusa/commit/1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b)]:
+  - @medusajs/utils@2.12.6
+  - @medusajs/deps@2.12.6
+  - @medusajs/modules-sdk@2.12.6
+  - @medusajs/orchestration@2.12.6
+
 ## 2.12.5
 
 ### Patch Changes

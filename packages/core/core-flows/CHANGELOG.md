@@ -1,5 +1,29 @@
 # @medusajs/core-flows
 
+## 2.12.6
+
+### Patch Changes
+
+- [#14536](https://github.com/medusajs/medusa/pull/14536) [`d60ea7268a00f386f803f0f9e6ffeec4bced50bf`](https://github.com/medusajs/medusa/commit/d60ea7268a00f386f803f0f9e6ffeec4bced50bf) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - feat(translation,fulfillment,customer,product,region,tax,core-flows,medusa,types): Implement dynamic translation settings management
+
+- [#14359](https://github.com/medusajs/medusa/pull/14359) [`cec8b8e428131d4743d6da98cd5fa0974b8ab9e1`](https://github.com/medusajs/medusa/commit/cec8b8e428131d4743d6da98cd5fa0974b8ab9e1) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - feat(core-flows,types,utils,medusa): Translate tax lines
+
+- [#14528](https://github.com/medusajs/medusa/pull/14528) [`28fae96ceed68e2c15c3f27316c5b8601f06c478`](https://github.com/medusajs/medusa/commit/28fae96ceed68e2c15c3f27316c5b8601f06c478) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - fix(core-flows): Avoid throwing if no prices found for variant when adding to cart custom price item
+
+- [#14466](https://github.com/medusajs/medusa/pull/14466) [`cbc9f3d059a65cc5ee26595e5cbccf7f05781e41`](https://github.com/medusajs/medusa/commit/cbc9f3d059a65cc5ee26595e5cbccf7f05781e41) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - chore(core-flows): Emit cart updated event on `deleteLineItemsWorkflow`
+
+- [#14476](https://github.com/medusajs/medusa/pull/14476) [`7307a5e63fdf8ed6f0ff201a0383f0a0bbfc7002`](https://github.com/medusajs/medusa/commit/7307a5e63fdf8ed6f0ff201a0383f0a0bbfc7002) Thanks [@adrien2p](https://github.com/adrien2p)! - feat(events): Implement priority-based event processing
+
+  - Internal events default to lowest priority (2,097,152) to prevent queue overload
+  - Normal events default to priority 100
+  - Order placed events explicitly set to priority 10 for immediate processing
+  - Support for priority overrides at message, emit, and module levels
+
+- [#14441](https://github.com/medusajs/medusa/pull/14441) [`1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b`](https://github.com/medusajs/medusa/commit/1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b) Thanks [@shahednasser](https://github.com/shahednasser)! - feat(deps,framework): add zod as framework dependency
+
+- Updated dependencies [[`13476988763368b3b333fa5bc3f613e8eb174fdf`](https://github.com/medusajs/medusa/commit/13476988763368b3b333fa5bc3f613e8eb174fdf), [`1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b`](https://github.com/medusajs/medusa/commit/1ca3516a5cbb059ad79fe483cd8e1d6a7ebca23b)]:
+  - @medusajs/framework@2.12.6
+
 ## 2.12.5
 
 ### Patch Changes
